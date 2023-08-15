@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 5px 0px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu a{
+  text-decoration: none;
+  color: red;
+}
+.about-me img {
+  width: 100px;
+  border-radius: 50%;
+}
